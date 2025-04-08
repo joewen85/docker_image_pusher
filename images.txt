@@ -8,6 +8,7 @@ homeassistant/home-assistant:stable
 gitlab/gitlab-ce
 jenkins/jenkins:lts-jdk17
 jenkins/inbound-agent:latest
+moby/buildkit:buildx-stable-1
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
