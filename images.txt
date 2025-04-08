@@ -1,25 +1,16 @@
-# nginx:alpine
-# mysql:latest
-# mysql:8.0
-# redis:alpine
+nginx:alpine
+mysql:latest
+mysql:8.0
+redis:alpine
 adguard/adguardhome:latest
 rabbitmq:management-alpine
 homeassistant/home-assistant:stable
 gitlab/gitlab-ce
 jenkins/jenkins:lts-jdk17
 jenkins/inbound-agent:latest
-# moby/buildkit:buildx-stable-1
+moby/buildkit:buildx-stable-1
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 moby/buildkit:buildx-stable-1
---platform=linux/amd64 moby/buildkit:buildx-stable-1
---platform=linux/arm64 nginx:alpine
---platform=linux/amd64 nginx:alpine
---platform=linux/arm64 mysql:latest
---platform=linux/amd64 mysql:latest
---platform=linux/arm64 mysql:8.0
---platform=linux/amd64 mysql:8.0
---platform=linux/arm64 redis:alpine
---platform=linux/amd64 redis:alpine
