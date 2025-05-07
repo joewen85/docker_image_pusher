@@ -2,6 +2,8 @@ nginx:alpine
 mysql:latest
 mysql:8.0
 redis:alpine
+postgis/postgis
+postgis/postgis:14-3.5
 adguard/adguardhome:latest
 rabbitmq:management-alpine
 homeassistant/home-assistant:stable
